@@ -1,8 +1,14 @@
 import Header from "./layouts/Header";
+import Container from "./layouts/Container";
 import "./App.css";
 
 function App() {
-  return <Header />;
+  return (
+    <>
+      <Header />
+      <Container />
+    </>
+  );
 }
 
 export default App;
