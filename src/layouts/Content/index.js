@@ -35,16 +35,12 @@ function Content() {
         coffee. Cheers!!
       </p>
       <span>
-        <a
-          href="https://www.linkedin.com/in/akshaygarje/"
-          Content="LinkedIn"
-          class="fa fa-linkedin"
-        ></a>
-        <a
-          href="mailto:akshay.garje@outlook.com"
-          Content="Email"
-          class="fa fa-envelope"
-        ></a>
+        <a href="https://www.linkedin.com/in/akshaygarje/">
+          <i class="fa fa-linkedin"></i>
+        </a>
+        <a href="mailto:akshay.garje@outlook.com">
+          <i class="fa fa-envelope"></i>
+        </a>
       </span>
     </div>
   );
