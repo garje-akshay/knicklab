@@ -1,13 +1,11 @@
-import Header from "./layouts/Header";
-import Container from "./layouts/Container";
 import "./App.css";
+import Footer from "./layouts/Footer";
 
 function App() {
   return (
-    <>
-      <Header />
-      <Container />
-    </>
+    <div className="app">
+      <Footer />
+    </div>
   );
 }
 
