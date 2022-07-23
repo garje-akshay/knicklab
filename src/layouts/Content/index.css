@@ -1,0 +1,16 @@
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    margin-top: 20px;
+    width: 100vw;
+    z-index: 2;
+    font-family: 'Montserrat', sans-serif;
+}
+
+@media only screen and (orientation: landscape) {
+    p {
+      max-width: 25vw !important;
+    }
+  }
