@@ -7,21 +7,24 @@ function Content() {
       <h1
         style={{
           fontFamily: "'Edu NSW ACT Foundation', cursive",
-          marginTop: 10,
-          margin: 0,
+          marginTop: 20,
+          marginBottom: 0,
         }}
       >
         KnickLab
       </h1>
-      <h4 style={{ margin: 0 }}>by Akshay Garje.</h4>
-      <h3 style={{ margin: "50px 0 0 5px" }}> About me. </h3>
+      <h5 style={{ margin: 0 }}>by Akshay Garje.</h5>
+
       <div className="aboutme-section">
         <div className="content">
-          <ul>
-            <li style={{ minHeight: 100, minWidth: 100 }}>
-              <img src="../../assets/images/me.png" alt="akshay garje" />
-            </li>
-          </ul>
+          <h3 style={{ margin: "30px 0 10px 0" }}> About me. </h3>
+          <div className="profile-pic">
+            <ul>
+              <li style={{ minHeight: 100, minWidth: 100 }}>
+                <img src="../../assets/images/me.png" alt="akshay garje" />
+              </li>
+            </ul>
+          </div>
           <p style={{ maxWidth: "50vw" }}>
             Hi, I am Akshay Garje, a {new Date().getFullYear() - 1997} years old
             Web developer living in{" "}
@@ -31,7 +34,16 @@ function Content() {
             or just connect with me on LinkedIn. I am always excited to do
             business with like minded people, lets discuss over coffee. Cheers!!
           </p>
-          <span>
+
+          <h3 style={{ margin: "10px 0 0 0" }}> Skills. </h3>
+          <ul style={{ textAlign: "start" }}>
+            <li>Javascript</li>
+            <li>React JS</li>
+            <li>HTML</li>
+            <li>CSS</li>
+          </ul>
+
+          <span style={{ margin: "20px 0 0 0" }}>
             <a href="https://www.linkedin.com/in/akshaygarje/">
               <i className="fa fa-linkedin"></i>
             </a>
@@ -47,6 +59,18 @@ function Content() {
               <i className="fa fa-whatsapp"></i>
             </a>
           </span>
+          <div className="blockquote-wrapper">
+            <div className="blockquote">
+              <h2>
+                <span style={{ color: "#000000" }}>
+                  If four things are followed, then anything can be achieved.
+                  having a great aim, acquiring knowledge, hard work, and
+                  perseverance.
+                </span>
+              </h2>
+              <h4>Dr. A.P.J. Abdul Kalam</h4>
+            </div>
+          </div>
         </div>
       </div>
     </div>
