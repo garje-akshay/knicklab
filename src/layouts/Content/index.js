@@ -29,22 +29,43 @@ function Content() {
             Hi, I am Akshay Garje, a {new Date().getFullYear() - 1997} years old
             Web developer living in{" "}
             <a href="https://goo.gl/maps/U6YWoFzZ9SP4MWNSA">Pune, India.</a> I
-            am an IT Engineer, currently working with awesome folks at{" "}
-            <a href="https://www.gslab.com/">GS Lab</a>. Have a look at skills
-            or just connect with me on LinkedIn. I am always excited to do
-            business with like minded people, lets discuss over coffee. Cheers!!
+            am a Software Engineer, currently working with awesome folks at{" "}
+            <a href="https://www.gyaan.ai/">Gyaan</a>. Have a look at skills or
+            just connect with me on LinkedIn. I am always excited to connect
+            with like minded people, lets discuss over coffee. Cheers!!
           </p>
 
           <h3 style={{ margin: "10px 0 0 0" }}> Skills. </h3>
-          <ul style={{ textAlign: "start" }}>
-            <li>Javascript</li>
-            <li>React JS</li>
-            <li>HTML</li>
-            <li>CSS</li>
-          </ul>
-
+          <div style={{ display: "flex" }}>
+            <ul
+              style={{
+                textAlign: "start",
+                display: "flex",
+                flexDirection: "column",
+                gap: 10,
+              }}
+            >
+              <li>Javascript</li>
+              <li>React JS</li>
+              <li>HTML</li>
+              <li>CSS</li>
+            </ul>
+            <ul
+              style={{
+                textAlign: "start",
+                display: "flex",
+                flexDirection: "column",
+                gap: 10,
+              }}
+            >
+              <li>Typescript</li>
+              <li>Janus</li>
+              <li>Material UI</li>
+              <li>Redux</li>
+            </ul>
+          </div>
           <span style={{ margin: "20px 0 0 0" }}>
-            <a href="https://www.linkedin.com/in/akshaygarje/">
+            <a href="https://www.linkedin.com/in/garjeakshay/">
               <i className="fa fa-linkedin"></i>
             </a>
             <a href="mailto:akshay.garje@outlook.com">
