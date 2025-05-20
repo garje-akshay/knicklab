@@ -30,7 +30,7 @@ function Content() {
             Web developer living in{" "}
             <a href="https://goo.gl/maps/U6YWoFzZ9SP4MWNSA">Pune, India.</a> I
             am a Software Engineer, currently working with awesome folks at{" "}
-            <a href="https://www.gyaan.ai/">Gyaan</a>. Have a look at skills or
+            <a href="https://lotusflare.com/">Lotusflare</a>. Have a look at skills or
             just connect with me on LinkedIn. I am always excited to connect
             with like minded people, lets discuss over coffee. Cheers!!
           </p>
@@ -62,6 +62,19 @@ function Content() {
               <li>Janus</li>
               <li>Material UI</li>
               <li>Redux</li>
+            </ul>
+             <ul
+              style={{
+                textAlign: "start",
+                display: "flex",
+                flexDirection: "column",
+                gap: 10,
+              }}
+            >
+              <li>Vue</li>
+              <li>Nuxt</li>
+              <li>Strapi</li>
+              <li>Git</li>
             </ul>
           </div>
           <span style={{ margin: "20px 0 0 0" }}>
